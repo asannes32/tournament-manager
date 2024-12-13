@@ -1,0 +1,19 @@
+{
+  "name": "pastyr/dgdb",
+  "description": "Disc Golf Database",
+  "authors": [
+    {
+      "name": "Andrew Sannes",
+      "email": "andrew.sannes@biworldwide.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DGDB\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "^3.12",
+    "monolog/monolog": "^1.24"
+  }
+}
